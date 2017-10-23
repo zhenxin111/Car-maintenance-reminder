@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        textarea {
+            resize: none;
+            width: 500px;
+            height: 300px;
+            display: block;
+            padding: 6px 12px;
+            font-size: 14px;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        div{
+            width: 500px;
+            margin: 15px;
+        }
+        button{
+            display: inline-block;
+            padding: 6px 25px;
+            margin: 0px 10px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+
+        }
+        .submit{
+            color: #fff;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+    </style>
+</head>
+<body>
+<label>请在下面输入程序测试用例：</label>
+    <textarea rows="10" cols="50"></textarea>
+    <div>
+        <button class="submit" onclick="CarInfo()">提交</button>
+        <button class="clear" onclick="clearInfo()">清空输出</button>
+    </div>
+    <p id="output"></p>
+<script type="text/javascript" src="carReminder.js"></script>
+</body>
+</html>
