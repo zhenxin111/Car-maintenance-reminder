@@ -75,7 +75,7 @@ Ford: 1 (CAR0009)
 本作业包含三个文件：
 + index.html 作业程序入口
 + carReminder.js javascript程序实现
-+ Readme.txt 作业说明
++ Readme.md 作业说明
 
 #### 使用步骤：
 
